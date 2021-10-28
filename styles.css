@@ -1,0 +1,72 @@
+/*
+
+*/
+
+body{
+	background-color: black;
+}
+
+#wrapper{
+	width: 100%
+}
+
+.header{
+	padding: 20px;
+	background-color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+/* list of skills will go here with the avatar and table in the main section on the right*/
+.sidebar{
+	width: 25%;
+	height: 750px;
+	float: left;
+	background-color: grey;
+}
+
+h3{
+	text-align: center;
+}
+
+li{
+	text-align: center;
+}
+
+.main{
+	width: 75%;
+	height: 750px;
+	float: right;
+	background-color: tan;
+}
+
+img{
+	float: left;
+}
+
+/* this should be positioned in the center of the space next to the avatar and move below on smaller windows*/
+table{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td, th{
+	border: 2px solid black;
+	text-align: center;
+}
+
+/*Background should change from black to red and all elements should move to fit screen size*/
+@media screen and (max-width: 992px) {
+  body {
+    background-color: red;	
+  }
+  
+  img.sml{
+	  height: 200px;
+	  width: auto;	  
+  } 
+}
+
